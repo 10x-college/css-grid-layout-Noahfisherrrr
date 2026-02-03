@@ -21,9 +21,9 @@ h1{
     margin-bottom: 60px;
 }
 
-.grid-container-layout2{
+.grid-container{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 23px;
 }
 .grid-item{
