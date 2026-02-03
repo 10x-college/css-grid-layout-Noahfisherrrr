@@ -39,3 +39,9 @@ h1{
     height: 100%;
     object-fit: cover;
 }
+.grid-item:nth-child(1), .grid-item:nth-child(6){
+    grid-column: span 2;
+}
+.grid-item:nth-child(5){
+    grid-row: span 2;
+}
